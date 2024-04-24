@@ -1,0 +1,574 @@
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6f61;
+}
+
+/* About Me Section Styles */
+#about {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+}
+
+#about h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Projects Section Styles */
+#projects {
+    padding: 80px 0;
+}
+
+#projects h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.project {
+    margin-bottom: 40px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+}
+
+.project h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.project p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Skills Section Styles */
+#skills {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+}
+
+#skills h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.skills ul {
+    list-style: none;
+    text-align: center;
+}
+
+.skills li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 18px;
+    color: #666;
+}
+
+/* Experience Section Styles */
+#experience {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+#experience h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#experience p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Contact Section Styles */
+#contact {
+    padding: 80px 0;
+}
+
+#contact h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#contact p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+#contact a {
+    color: #ff6f61;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#contact a:hover {
+    color: #e64c3c;
+}
+
+/* Additional CSS Styles */
+
+/* Header Styles */
+header {
+    background: url(light.avif) no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    padding: 30px 0;
+    position: relative;
+}
+
+header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #ff6f61;
+}
+h1{
+    color: #ffffff;
+    text-shadow: 5px 2px 5px lavenderblush;
+    font-size: 70px;
+}
+
+/* Navigation Styles */
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 20px;
+    list-style: none;
+}
+
+nav ul li a {
+    position: relative;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+nav ul li a::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #ff6f61;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+nav ul li a:hover::before {
+    transform: scaleX(1);
+}
+
+/* Hero Section Styles */
+.hero {
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.hero .btn-primary {
+    font-size: 18px;
+}
+
+/* Section Styles */
+section {
+    padding: 80px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* Project Card Styles */
+.project {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+}
+
+.project h3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #252424;
+}
+
+.project p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Skills Styles */
+.skills ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skills li {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #f9f9f9;
+    border-radius: 20px;
+}
+
+/* Experience Styles */
+.experience {
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: #fff;
+    padding: 80px 0;
+}
+
+.experience h2 {
+    text-align: center;
+}
+
+.experience p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+/* Contact Styles */
+.contact {
+    background: #f9f9f9;
+    padding: 80px 0;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.contact p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.contact a {
+    color: #ff6f61;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact a:hover {
+    color: #e64c3c;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1200px) {
+    .container {
+        padding: 0 20px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    header h1 {
+        font-size: 36px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    nav ul li {
+        margin-right: 15px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+        margin-bottom: 15px;
+    }
+
+    .hero p {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    section {
+        padding: 60px 0;
+    }
+
+    h2 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .project h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .project p {
+        font-size: 16px;
+    }
+
+    .skills li {
+        font-size: 16px;
+    }
+
+    .experience p {
+        font-size: 16px;
+    }
+
+    .contact p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 20px 0;
+    }
+
+    header h1 {
+        font-size: 32px;
+    }
+
+    header p {
+        font-size: 14px;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .hero p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    section {
+        padding: 40px 0;
+    }
+
+    h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .project h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .project p {
+        font-size: 14px;
+    }
+
+    .skills li {
+        font-size: 14px;
+    }
+
+    .experience p {
+        font-size: 14px;
+    }
+
+    .contact p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    header p {
+        font-size: 12px;
+    }
+
+    .hero h1 {
+        font-size: 24px;
+    }
+
+    .hero p {
+        font-size: 12px;
+    }
+
+    .hero .btn-primary {
+        font-size: 10px;
+        padding: 6px 12px;
+    }
+
+    .project h3 {
+        font-size: 16px;
+    }
+
+    .project p {
+        font-size: 12px;
+    }
+
+    .skills li {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+
+    .experience p {
+        font-size: 12px;
+    }
+
+    .contact p {
+        font-size: 12px;
+    }
+}
+
+.bio p{
+    font-size: 20px;
+}
+
+.bmi p{
+    font-size: 20px;
+}
+ .bio h4{
+    font-size: 25px;
+ }
+
+ .bmi h4{
+    font-size: 25px;
+ }
+#skills li{
+    font-size: 25px;
+}
+#certification li{
+    font-size: 25px;
+
+}
+body{
+    background-color: #f5efef;
+    opacity: 2;
+}
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 8px gray;
+    transition: all easr.5s;
+}
+img:hover{
+    transform: scale(1.4);
+}
+.comp{
+   display: flex;
+   gap: 15px;
+   margin-top: 30px;
+   margin-left: 30px;
+   padding: 40px;
+   height:auto;
+   width: auto;
+   overflow: scroll;
+   scrollbar-width: none;
+   
+}
+.CORE{
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 40px;
+    height:auto;
+    width: auto;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+.iv img{
+    margin-left: 80px;
+}
+.iv h3{
+    font-size: 25px;
+
+}
+.iv h4{
+    font-size: 22px;
+}
